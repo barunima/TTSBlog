@@ -1,5 +1,5 @@
 <div class="container">
-    <h1>Current Blog Posts</h1>
+    <h1>Blog Posts</h1>
     <h1>Welcome <%= current_user.name%></h1>
     <div class="row">
         <% @blog_posts.each do |blog_post| %>
@@ -28,5 +28,5 @@
     <div>
         <%= link_to 'New Blog Post', new_blog_post_path %>
     </div>
-    
+
 </div>
